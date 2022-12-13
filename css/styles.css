@@ -93,6 +93,8 @@ nav li:hover a {
 }
 
 a {
+    height: 40px;
+    width: 100%;
     display: block;
 }
 
@@ -191,8 +193,10 @@ label {
 }
 
 footer {
+    border-top: 5px solid rgba(27, 31, 36, 0.15);
+    background-color: #f6f8fa;
     text-align: center;
-    margin-bottom: 36px;
+    padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" type="image/x-icon" href="icon.png" />
+        <title>Tic-Tac-Toe</title>
+    </head>
+    <body>
+        <!-- main menu to select mode -->
+        <div class="menu display-menu" id="menu">
+            <h1>Choose Opponent:</h1>
+            <button id="cpu">1 vs CPU</button>
+            <button id="human">1 vs 1</button>
+        </div>
+
+        <!-- show who won the last game -->
+        <div class="menu game-result" id="game-result">
+            <h1 id="win-result"></h1>
+        </div>
+
+        <!-- title -->
+        <header>
+            <h1>Tic-Tac-Toe</h1>
+            <h3>by Ryan Riccio</h3>
+        </header>
+
+        <!-- grid of divs for the board content -->
+        <section class="board">
+            <div class="box" id="box-0"></div>
+            <div class="box" id="box-1"></div>
+            <div class="box" id="box-2"></div>
+            <div class="box" id="box-3"></div>
+            <div class="box" id="box-4"></div>
+            <div class="box" id="box-5"></div>
+            <div class="box" id="box-6"></div>
+            <div class="box" id="box-7"></div>
+            <div class="box" id="box-8"></div>
+        </section>
+
+        <!-- brings up the main menu and shows info -->
+        <div id="info">
+            <h1 id="current-turn">Current Turn: X</h1>
+            <button id="change-mode">Change Mode</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
